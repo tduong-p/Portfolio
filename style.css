@@ -1,0 +1,94 @@
+.navbar-default
+{
+    background-color: none;
+}
+
+.bg {
+    background-image: url("https://theprojector.sg/static/a76273c2e2b36e4aadb3f729f89969ad/59a59/the-worst-person-in-the-world-verdens-verste-menneske-c-oslo-pictures-20-.jpg");
+    height: 720px;
+    margin-top: -90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myCarousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+
+
+  .carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+      filter: invert(100%);
+  }
+
+
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+
+  /* @keyframes slide-up-1 {
+    from {margin-top: 0px;}
+    to {margin-top: -20px;}
+  }
+  @keyframes slide-down-1 {
+    from {margin-top: 0px;}
+    to {margin-top: 20px;}
+  }
+
+
+  .card-animation-1:hover {
+    animation: slide-up-1 forwards;
+    animation-duration: 0.5s;
+  }
+
+  .card-animation-1 {
+    animation: slide-down-1 forwards;
+    animation-duration: 0.5s;
+  } */
+
+
+  #demo-svg {
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 0;
+  }
+
+
+
+  .nav-link .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .navbar-brand .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.svg {
+    margin-right: -100px;
+}
+
+
+
+
