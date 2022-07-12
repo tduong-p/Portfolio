@@ -1,0 +1,99 @@
+      /* BG */
+      body, html {
+        height: 100%;
+        margin: 0;
+        color: black;
+      }
+
+      @keyframes slide-up-1 {
+        from {margin-top: 0px;}
+        to {margin-top: -20px;}
+      }
+      @keyframes slide-down-1 {
+        from {margin-top: 0px;}
+        to {margin-top: 20px;}
+      }
+
+      .card-animation-1:hover {
+        animation: slide-up-1 forwards;
+        animation-duration: 0.5s;
+      }
+
+      .card-animation-1 {
+        animation: slide-down-1 forwards;
+        animation-duration: 0.5s;
+      }
+      
+      .bg {
+        /* BG image */
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_Pride_Desktop_22.jpg?version=f8c9e712-0ae1-bf2c-cebb-4c6c3da68d89");
+        margin-top: 20px;
+        height: 100%; 
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .bg1 {
+        /* BG image */
+        background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWGlcP?ver=5e41&q=90&m=6&h=690&w=1228&b=%23FFFFFFFF&l=f&o=t&aim=true");
+        margin-top: 50px;
+        height: 100%; 
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .display-2 {
+        font-weight: bold;
+        font-family: "Verdana", Sans-serif ;
+        font-size:50px;
+        font-style: bold;
+
+      }
+
+      /* DROPDOWN MENU ANIMATION */
+      .dropdown-menu {
+        display: block;
+        opacity: 0;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: all .3s ease-in;
+      }
+      .dropdown-menu.show {
+        max-height: 500px;
+        opacity: 1;
+        padding: 0.5rem 0;
+      }
+      /* END OF DROPDOWN MENU ANIMATION */
+
+      .icon-bot {
+        font-size: 30px;
+      }
+
+      .lead {
+
+        font-family: "Verdana", Sans-serif ;
+      }
+
+      .deals-1 {
+        font-weight: bold;
+      }
+
+      .display-1 {
+        top: 0;
+      }
+
+
+      a:link {
+        text-decoration: none;
+      }
+
+      a:link:hover {
+        text-decoration: underline;
+      }
+
+    

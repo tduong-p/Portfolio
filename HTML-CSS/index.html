@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Microsoft surface</title>
+    <link rel="stylesheet" href="css.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    
+  </head>
+
+  <style>
+          .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+  </style>
+
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+    
+        <!-- Collapsible wrapper -->
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <div class="navbar-bran-icon">
+            <img
+              src="https://www.courmed.com/wp-content/uploads/2021/06/Microsoft-Logo-PNG-Transparent.png"
+              height="40"
+              alt="Microsoft Logo"
+              loading="lazy"
+            />
+          </div>
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><b>Surface</b></a>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Computers
+              </a>
+              <class class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+                <div class="container">
+                  <div class="row my-4">
+                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">2-in-1 PCs</h6>
+                        <a href="" class="list-group-item list-group-item-action">Surface Pro 8</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Pro 7+</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Pro X</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Go 3</a>
+                        <a href="" class="list-group-item list-group-item-action">Explore all 2-in-1 PCs</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">Laptops </h6>
+                        <a href="" class="list-group-item list-group-item-action">Surface Laptop Studio</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Laptop 4</a>
+                        <a href="" class="list-group-item list-group-item-action">New Surface Laptop Go 2</a>
+                        <a href="" class="list-group-item list-group-item-action">Explore all Laptops</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">Dual Screen</h6>
+                        <a href="" class="list-group-item list-group-item-action">Surface Duo 2</a>
+                        <h6 class="dropdown-header">All-in-One</h6>
+                        <a href="" class="list-group-item list-group-item-action">Surface Studio 2</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">Need help deciding?</h6>
+                        <a href="" class="list-group-item list-group-item-action">Compare Surface devices</a>
+                        <a href="" class="list-group-item list-group-item-action">Help me choose a Surface</a>
+                        <a href="" class="list-group-item list-group-item-action">Why Surface</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </class>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Computers for business
+              </a>
+              <class class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0; border-top-right-radius: 0;">
+                <div class="container">
+                  <div class="row my-4">
+                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">2-in-1 Tablets</h6>
+                        <a href="" class="list-group-item list-group-item-action">Surface Pro 8 for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Pro 7+ for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Pro X for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Go 3 for Business</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">Laptops </h6>
+                        <a href="" class="list-group-item list-group-item-action">Surface Laptop 4 for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">NEW Surface Laptop Go 2 for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Laptop Studio for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Laptop SE for Education</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">Small and Large Screens</h6>
+                        <a href="" class="list-group-item list-group-item-action">Surface Duo 2 for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Studio 2 for Business</a>
+                        <a href="" class="list-group-item list-group-item-action">Surface Hub 2S</a>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="list-group list-group-flush">
+                        <h6 class="dropdown-header">Need help deciding?</h6>
+                        <a href="" class="list-group-item list-group-item-action">Compare Surface devices for business</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </class>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+          
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+    
+        <!-- Right elements -->
+        <div class="d-flex align-items-center justify-content-between">
+
+
+          <a class="text-reset me-3" href="#">
+            <i class="bi bi-microsoft"></i>
+          </a>
+          
+
+
+          <!-- Avatar -->
+          <div class="dropdown">
+            <a
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="./2.webp"
+                class="rounded-circle"
+                height="25"
+                alt=""
+                loading="lazy"
+              />
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="navbarDropdownMenuAvatar"
+            >
+              <li>
+                <a class="dropdown-item" href="#">My profile</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Settings</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+
+<!-- BG -->
+
+          
+
+        <div class="bg">
+            <div class='container h-100'>
+              <div class='row h-100 align-items-center'>
+                <div class='col-12 text-end'>
+                  <h1 class='display-2'>
+                    Laptops designed <br> by Microsoft</h1>
+                  <p class='lead'>Microsoft Surface touchscreen laptops and 2-in-1s <br> empower you to break the boundaries, create <br> however you want and show your pride.</p>
+                  <div class="deals">
+                    <a href="https://www.microsoft.com/en-us/store/b/surface-deals">Save big on Surface devices. Shop Deals -></a>
+                    <br>
+                    <br>
+                    <div class="container">
+                      <div class="deals-1">
+                      <div class="row">
+                        <div class="col-10 text-end">
+                          <a href="https://www.microsoft.com/en-us/store/b/surface-deals">Find your Surface ></a>
+                        </div>
+                        <div class="col-2 text-end">
+                          <a href="https://www.microsoft.com/en-us/store/b/surface-deals">Shop Pride Gear ></a>
+                          <br>
+                          <br>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 text-end">
+                          <a href="https://www.microsoft.com/en-us/store/b/surface-deals">Celebrate Pride ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+<!-- END OF BG -->
+
+<!-- Main -->
+
+
+  <!-- 2 in 1 -->
+    <div class="container">
+      <div class="row h-100 align-items-left">
+        <div class="col-12 text-left">
+          <h1 class="Heading-1">
+            <br>
+            <br>
+            <big> 2-in-1 PCs </big>
+            <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><small><small><small><small>See all Surface 2-in-1 PCs ></small></small></small></small></a>
+          </h1>
+        </div>
+        <div class="col-6">
+        <div class="image" style="width: 100%;">
+          <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4R1uB?ver=a9c2&q=90&m=6&h=1625&w=750&b=%23FFFFFFFF&l=f&o=t&aim=true"  alt="..." class="rounded" >
+          <!-- <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+          </div>
+        <div class="col-3 text-justify">
+          <div class="card shadow" style="width: 18rem; height:49.5%;">
+            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro8_V1.jpg?version=4fae0c23-5e2f-fed2-c3c7-ea821c10c21f" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Surface Pro 8</h5>
+              <p class="card-text">Surface Pro 8 is designed to light up the best of Windows 11, enabling you to work, play, and create in ways most natural to you. Laptop, tablet, or portable digital canvas. You choose – it’s your computer.</p>
+              <a href="#" class="btn btn-primary">Explore now ></a>
+            </div>
+          </div>  
+          <div class="card shadow" style="width: 18rem; height:49.5%; margin-top:10px;">
+            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_ProX_V1.jpg?version=8c9495d4-fbd9-ef22-8242-cdc9b9404bce" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Surface Pro X</h5>
+              <p class="card-text">From sketching or editing to binge watching your favorite show on the high-resolution 13” PixelSense™ touchscreen, the iconic built-in Kickstand effortlessly adjusts to the position you need.</p>
+              <a href="#" class="btn btn-primary">Explore now ></a>
+            </div>
+          </div>         
+        </div>
+        <div class="col-3 text-justify">
+          <div class="card shadow" style="width: 18rem; height:49.5%; margin-left: 10px;">
+            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Pro7Plus_V1.jpg?version=05eae560-b1d5-1009-0395-00b77e34c3b7" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Surface Pro 7+</h5>
+              <p class="card-text">Our classic Surface Pro 2-in-1 design meets high-speed performance to give you premium laptop versatility, a powerful tablet, or portable digital canvas de...<br><br><br></p>
+              <a href="#" class="btn btn-primary">Explore now ></a>
+            </div>
+          </div>   
+          <div class="card shadow" style="width: 18rem; margin-left: 10px; height:49.5%; margin-top: 10px;">
+            <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Go3_V1.jpg?version=4fac9844-97e8-63f3-8aa7-fc05eac0a418" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Surface Go 3</h5>
+              <p class="card-text">See the most portable Surface touchscreen 2-in-1 in action, and discover the perfect way to tackle everyday tasks, run your favorite apps, jot down ideas, and enjoy a little down time.</p>
+              <a href="#" class="btn btn-primary">Explore now ></a>
+            </div>
+          </div>  
+                 
+        </div>
+        </div>
+          <div class="row h-100 align-items-left">
+            <div class="col-12 text-left">
+              <h1 class="Heading-2">
+                <br>
+                <br>
+                <big> Laptops </big>
+                <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><small><small><small><small>Explore all Surface Laptops ></small></small></small></small></a>
+              </h1>
+            </div>
+                    <div class="col-5 text-justify">
+                      <div class="card-animation-1">
+                      <div class="card shadow-lg" style="width: 18rem; height:100; float:right; margin-top:100px; margin-right: 30px;">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_LaptopStudio_V1.jpg?version=8a69d61b-d985-5e88-201d-285e88f9cd6f" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Surface Laptop Studio</h5>
+                          <p class="card-text">Set your imagination free on Surface Laptop Studio. Boundary-pushing design lets you flex your creative muscle on the sleek, 14.4" 120Hz PixelSense™ Flow touchscreen.</p>
+                          <a href="#" class="btn btn-primary">Explore now ></a>
+                        </div>
+                      </div> 
+                    </div> 
+                    </div>
+                    <div class="col-3 text-justify">
+                      <div class="card-animation-1">
+                      <div class="card shadow-lg" style="width: 18rem; height:100; float:right; margin-top: 50px; margin-right: 15px;">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Laptop4_V1.jpg?version=ecd7c92c-54ab-8358-c613-ee063198d653" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Surface Laptop 4</h5>
+                          <p class="card-text">Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen. Do it all with a perfect balance of sleek des...</p>
+                          <a href="#" class="btn btn-primary">Explore now ></a>
+                        </div>
+                      </div>  
+                      </div>
+                    </div>
+                    <div class="col-3 text-justify">
+                      <div class="card-animation-1">
+                      <div class="card shadow-lg" style="width: 18rem; height:100; float:right; margin-top:100px;">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F22_Home_DeviceShowcase_Laptop4_15_Inch_V1.png?version=2c52eab3-edf4-f011-0d6d-bfade1134916" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Surface Laptop 4 15''</h5>
+                          <p class="card-text">Now with Windows 11. Up to 70% faster than before with significantly longer battery life that lasts all day.1 Stand out on HD video calls, capture ideas on the PixelSense™ touchscreen.</p>
+                          <a href="#" class="btn btn-primary">Explore now ></a>
+                        </div>
+                      </div> 
+                    </div> 
+                  </div>
+                    </div>
+          </div>
+      </div>
+    
+    <!-- END OF 2 in 1 -->
+
+    <!-- Laptop Section -->
+
+
+    <div class="bg1">
+      <div class='container h-100'>
+        <div class='row h-100 align-items-center'>
+          <div class='col-12 text-left'>
+            <h1 class='display-1'>
+              <small><small>Which <br> Windows? <br>You decide</small></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row h-50 align-items-left">
+      <div class="col-2 text-center">
+        <div class="icon-bot">
+        <i class="bi bi-shield"></i>
+        <br>
+      </div>
+      <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><b><big>Protect your Surface</big></b></a>
+      </div>
+      <div class="col-2 text-center">
+        <div class="icon-bot">
+          <i class="bi bi-building"></i>
+        <br>
+      </div>
+      <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><b><big>Surface for your Business</big></b></a>
+      </div>
+      <div class="col-2 text-center">
+        <div class="icon-bot">
+          <i class="bi bi-exclamation-triangle"></i>
+        <br>
+      </div>
+      <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><b><big>Power cord recall</big></b></a>
+      </div>
+      <div class="col-2 text-center">
+        <div class="icon-bot">
+          <i class="bi bi-newspaper"></i>
+        <br>
+      </div>
+      <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><b><big>Get the Surface newsletter</big></b></a>
+      </div>
+      <div class="col-2 text-center">
+        <div class="icon-bot">
+          <i class="bi bi-info-square"></i>
+        <br>
+      </div>
+      <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><b><big>Surface support</big></b></a>
+      </div>
+      <div class="col-2 text-center">
+        <div class="icon-bot">
+          <i class="bi bi-keyboard"></i>
+        <br>
+      </div>
+      <a href="https://www.microsoft.com/en-us/store/b/surface-deals"><b><big>Accessories</big></b></a>
+      </div>
+    </div>
+  </div>
+
+    <!-- END OF LAPTOP SECTION -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="bi bi-microsoft"></i> Microsoft
+          </h6>
+          <p>
+            Our mission is to empower every person and every organization on the planet to achieve more.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            What's new
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Surface Laptop Go 2</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Surface Pro 8</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Surface Laptop Studio</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Surface Pro X</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Microsoft Store
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Account profile</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Download Center</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Microsoft Store support</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Returns</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Developer & IT
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Azure</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Developer Center</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Documentation</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Microsoft Learn</a>
+          </p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright: Microsoft
+  </div>
+  <!-- END OF Copyright -->
+</footer>
+
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+
+  </body>
+</html>
