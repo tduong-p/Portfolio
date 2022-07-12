@@ -4,7 +4,7 @@
 }
 
 .bg {
-    background-image: url("https://theprojector.sg/static/a76273c2e2b36e4aadb3f729f89969ad/59a59/the-worst-person-in-the-world-verdens-verste-menneske-c-oslo-pictures-20-.jpg");
+    background-image: url("./img/prj/878.jpg");
     height: 720px;
     margin-top: -90px;
     background-position: center;
@@ -83,7 +83,8 @@
   .navbar-brand .letter {
     display: inline-block;
     line-height: 1em;
-  }
+    color:#FFD700
+   }
 
 .svg {
     margin-right: -100px;
@@ -97,3 +98,6 @@
 
 
 
+.nav-link, #nav-animation-1 {
+  color: #FFD700;
+}
