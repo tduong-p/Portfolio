@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD
+XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+
+
+        <script type = "text/javascript">
+            function Apple(weight) {
+               
+                // Check weight input and default value
+                if (weight === undefined) {
+                    this.weight = 10; 
+                }
+                else {
+                    if(isNaN(weight)){
+                        console.log ('Weight must be a number');
+                        return;
+                    }else{
+                        this.weight = weight;
+                    };
+                };
+
+                // Decrease weight
+                function weightDerease() {
+                    if (this.weight >= 1 ) {
+                        return --this.weight;
+                    }
+                    else {
+                        this.weight = 0;
+                    };
+                };
+                
+                function getWeight() {
+                    if (this.weight > 0) {
+                        console.log(this.weight);
+                    }
+                    else {
+                        console.log('This apple has been eaten');
+                    };
+                };
+
+                function isEmpty() {
+                    if (this.weight > 0) {
+                        return false;
+                    }
+                    else {
+                        return true;
+                    };
+                }
+            }
+
+            function Human(name, sex, weight) {
+                if (name === undefined) {
+                    return;   
+                }
+                else {
+                    this.name = name;
+                };
+
+                if (sex === 'male' || sex === 'female') {
+                    this.sex = sex;
+                        if (sex === 'male') {
+                            this.isMale = true;
+                        }
+                        else {
+                            this.isMale = false;
+                        }
+                }
+                else {
+                    console.log ('sex is undefined');
+                    return;
+                };
+
+                if(isNaN(weight)){
+                        console.log ('Weight must be a number');
+                        return;
+                    }else{
+                        this.weight = weight;
+                    };
+                function checkApple(Apple) {
+                    Apple.getWeight();
+                };
+                function eat(Apple) {
+                    Apple.weightDerease();
+                };
+
+                function getName() {
+                    return this.name;
+                };
+
+                function getSex() {
+                    return this.sex;
+                };
+                
+                function getWeight() {
+                    return this.weight;
+                };
+            }
+        </script>
+        
+
+
+    </body>
+</html>

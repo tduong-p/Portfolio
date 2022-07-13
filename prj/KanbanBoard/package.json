@@ -1,0 +1,22 @@
+{
+  "name": "kanbanboard",
+  "version": "1.0.0",
+  "description": "Kaban Board project made by Scor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScorDaSimpingFox/KanbanBoard.git"
+  },
+  "author": "Scor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScorDaSimpingFox/KanbanBoard/issues"
+  },
+  "homepage": "https://github.com/ScorDaSimpingFox/KanbanBoard#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}

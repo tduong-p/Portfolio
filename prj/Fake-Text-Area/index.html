@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD
+XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body onload="fake()" style="text-align: center;">
+   
+    <form name="f">
+    <label>
+    <textarea name="" id="txt" cols="30" rows="6"></textarea>
+</label>
+</form>
+    
+
+<script>
+let array = [];
+let str = "";
+array[1] ='1';
+array[2] ='2';
+array[3] ='3';
+array[4] ='4';
+array[5] ='5';
+array[6] ='6';
+array[7] ='7';
+array[8] ='8';
+array[9] ='9';
+array[10] ='1';
+array[11] ='1';
+array[12] ='1';
+array[13] ='1';
+array[14] ='1';
+
+function fake() {
+    let text = document.getElementById("txt").value;
+    let l = text.length;
+    if (l>0) {
+        for(var i = 1; i<= l; i++){
+        str = str + array[i];   
+                if (i === 14) {
+                document.getElementById("txt").value= ""
+                str = "";
+                }
+        }
+    }
+    document.getElementById("txt").value = str;
+        str = "";
+        setTimeout("fake()", 1);
+}
+
+
+        
+        
+
+
+
+
+
+
+
+</script>
+
+
+ 
+    </body>
+</html>

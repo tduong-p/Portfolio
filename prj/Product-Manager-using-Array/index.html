@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Produc Manager using Array</title>
+</head>
+<body>
+  <h2>Product List:</h2>
+  <p id="list"><br></p>
+  <button type="button" onclick="add(Products)">Add a Product</button>
+  <button type="button" onclick="edit(Products)">Edit a Product</button>
+  <button type="button" onclick="remove(Products)">Delete a Product</button>
+
+  <script>
+    var Products = ['Flower pot', 'Water Bottle', 'Cake', 'Bike', 'Desk'];
+    function show(Products) {
+      var stt="";
+      for (var i=0;i<Products.length;i++){
+        stt=stt+(i+1)+". "+Products[i]+"<br>";
+      }
+      return stt;
+    }
+
+    function add(Products) {
+      var newProducts = prompt("Enter product name to add");
+      Products.push(newProducts);
+      document.getElementById("list").innerHTML = show(Producst);
+    }
+
+    function edit(Products) {
+      var input = prompt("Enter item Id");
+      var newProducts = prompt("Enter new product name");
+      Products[input-1] = newProducts;
+      document.getElementById("list").innerHTML = show(Products);
+    }
+
+    function remove(Product) {
+      var input = prompt("Enter Product ID to remove");
+      Products.splice(input-1,1);
+      document.getElementById("list").innerHTML = show(Products);
+    }
+    document.getElementById("list").innerHTML = show(Products);
+  </script>
+</body>
+</html>

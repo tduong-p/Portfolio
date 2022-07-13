@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD
+XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+
+
+        <script type = "text/javascript">
+            let lamp = function (name) {
+                this.name = name;
+                this.status = false;
+                this.turnOn = function () {
+                    this.status = true;
+                    console.log ('turned on');
+                };
+                this.turnOff = function () {
+                    this.status = false;
+                    console.log ('turned off');
+                }
+            };
+
+            let switcher = function () {
+                this.lamp = {};
+                this.connect_status = false;
+                this.conectToLamp = function (obj) {
+                    this.lamp = obj;
+                    this.status = true;
+                    document.getElementById('status').innerHTML = "connected to Lamp";
+                };
+                this.switchOn = function () {
+                    this.lamp.turnOn();
+                    document.getElementById('status').innerHTML = "Turned on";
+                }
+                this.switchOff = function () {
+                    this.lamp.turnOff();
+                    document.getElementById('status').innerHTML = "Turned off";
+                }
+
+            }
+            let ASwitcher = new switcher();
+            let ALamp = new lamp("aa");
+        </script>
+        
+            <button onclick="ASwitcher.conectToLamp(ALamp)">connect</button>
+            <button onclick="ASwitcher.switchOn()">On</button>
+            <button onclick="ASwitcher.switchOff()">Off</button>
+            <p id="status">a</p>
+
+    </body>
+</html>

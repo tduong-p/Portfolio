@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD
+XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Web Truyện</title>
+    </head>
+    <style>
+        .big-heading {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .heading {
+            height: 100px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+                    .logo {
+                        height: 100%;
+                        width: 29%;
+                        float: left;
+                        border-style: double;
+                    }
+                    .banner {
+                        height: 100%;
+                        width: 70%;
+                        margin-left: 1px;
+                        float: left;
+                        border-style: dotted;
+                    }
+                    .head-link {
+                        height: 30px;
+                        margin-top:     0px;
+                        width: 100%;
+                        background-color: #ddd;
+                        margin-bottom: 5px;
+                    }
+                    .link a {
+                        float: left;
+                        display: block;
+                        width: 30%;
+                        margin-left: 0.7%;
+                        color: #000;
+                        text-align: center;
+                        height: 23px;
+                        padding: 3px 16px;
+                        text-decoration: none;
+                    }
+                    .link a:hover {
+                        background-color: #04AA6D;
+                        color: #000;
+                    }     
+        .giua {
+            margin-top: 5px;
+            max-width: 100%;
+            height: 400px;
+            margin-top: 135px;
+        }
+
+        /* verticalnav bar */
+                    ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        width: 15%;
+                        background-color: #f1f1f1;
+                        position: fixed;
+                        height: 100%;
+                        overflow: auto;
+                    }
+
+                    li a {
+                        display: block;
+                        color: #000;
+                        padding: 8px 16px;
+                        text-decoration: none;
+                    }
+
+                    li a.active {
+                        background-color: #04AA6D;
+                        color: white;
+                    }
+
+                    li a:hover:not(.active) {
+                        background-color: #555;
+                        color: white;
+                    }
+                    .content {
+                        width: 75%;
+                        height: 900px;
+                        margin-left: 25%;
+                        float: left;
+                    }
+                                .upper-item-line {
+                                    width: 100%;
+                                    height: 40%;
+                                    margin-top: 20px;
+                                    margin-bottom: 20px;
+                                }
+                                .item-upper-1 {
+                                    width: 31%;
+                                    height: 99%;
+                                    float: left;
+                                    margin-left: 0.8%;
+                                }
+                                .item-upper-2 {
+                                    width: 31%;
+                                    height: 99%;
+                                    float: left;
+                                    margin-left: 1%;
+                                }
+                                .item-upper-3 {
+                                    width: 31%;
+                                            height: 99%;
+                                            float: left;
+                                            margin-left: 1%;    
+                                }
+                                            .card {
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                                            max-width: 300px;
+                                            margin: auto;
+                                            text-align: center;
+                                            }
+
+                                            .title {
+                                            color: grey;
+                                            font-size: 18px;
+                                            }
+
+                                            button {
+                                            border: none;
+                                            outline: 0;
+                                            display: inline-block;
+                                            padding: 8px;
+                                            color: white;
+                                            background-color: #000;
+                                            text-align: center;
+                                            cursor: pointer;
+                                            width: 100%;
+                                            font-size: 18px;
+                                            }
+
+                                            a {
+                                            text-decoration: none;
+                                            font-size: 22px;
+                                            color: black;
+                                            }
+
+                                            button:hover, a:hover {
+                                            opacity: 0.7;
+                                            }
+                                .lower-item-line{
+                                    width: 100%;
+                                    height: 47%;
+                                    margin-top: 10%;
+                                }
+                                            .item-lower-1 {
+                                                width: 31%;
+                                                height: 99%;
+                                                float: left;
+                                                margin-left: 0.8%;
+                                            }
+                                            .item-lower-2 {
+                                                width: 31%;
+                                                height: 99%;
+                                                float: left;
+                                                margin-left: 1%;
+                                            }
+                                            .item-lower-3 {
+                                                width: 31%;
+                                                        height: 99%;
+                                                        float: left;
+                                                        margin-left: 1%;    
+                                            }
+                                            .card {
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                                            max-width: 300px;
+                                            margin: auto;
+                                            text-align: center;
+                                            }
+
+                                            .title {
+                                            color: grey;
+                                            font-size: 18px;
+                                            }
+
+                                            button {
+                                            border: none;
+                                            outline: 0;
+                                            display: inline-block;
+                                            padding: 8px;
+                                            color: white;
+                                            background-color: #000;
+                                            text-align: center;
+                                            cursor: pointer;
+                                            width: 100%;
+                                            font-size: 18px;
+                                            }
+
+                                            a {
+                                            text-decoration: none;
+                                            font-size: 22px;
+                                            color: black;
+                                            }
+
+                                            button:hover, a:hover {
+                                            opacity: 0.7;
+                                            }
+
+
+        .footer {
+            height: 20px;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+            margin-top: 5px;
+            background-color: lightblue;
+        }
+    </style>
+    <body>
+        <div class="main"></div>
+        <div class="big-heading">
+        <div class="heading">
+            <div class="logo"></div>
+            <div class="banner"></div>
+        </div>
+        <div class="head-link">
+            <div class="link">
+                <a href="Google.com">Google</a>
+                <a href="Facebook.com">Facebook</a>
+                <a href="Apple.us">Apple</a>
+            </div>
+        </div>
+        </div>
+        <div class="giua"> 
+                <ul>
+                    <li><a href="webtruyen.html">Truyện TOP</a></li>
+                    <li><a href="kiemhiep.html">Kiếm Hiệp</a></li>
+                    <li><a href="ngontinh.html">Ngôn Tình</a></li>
+                    <li><a href="tienhiep.html">Tiên Hiệp</a></li>
+                    <li><a href="truyenteen.html">Truyện Teen</a></li>
+                    <li><a class="active" href="xuyenkhong.html">Xuyên Không</a></li>
+                </ul>
+                <div class="content">
+                    <div class="upper-item-line">
+                        <div class="item-upper-1">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                            <div class="card">
+                            <img src="images/1.jpg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <p><button>Contact</button></p>
+                            </div>
+                        </div>
+                        <div class="item-upper-2">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                            <div class="card">
+                            <img src="images/1.jpg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <p><button>Contact</button></p>
+                            </div>
+                        </div>
+                        <div class="item-upper-3">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                            <div class="card">
+                            <img src="images/1.jpg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <p><button>Contact</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lower-item-line">
+                        <div class="item-lower-1">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                            <div class="card">
+                            <img src="images/1.jpg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <p><button>Contact</button></p>
+                            </div>
+                        </div>
+                        <div class="item-lower-2">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                            <div class="card">
+                            <img src="images/1.jpg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <p><button>Contact</button></p>
+                            </div>
+                        </div>
+                        <div class="item-lower-3">
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                            <div class="card">
+                            <img src="images/1.jpg" alt="John" style="width:100%">
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <p><button>Contact</button></p>
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+        <div class="footer"></div>
+    </body>
+</html>
