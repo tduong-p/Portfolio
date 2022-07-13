@@ -78,12 +78,13 @@
   .nav-link .letter {
     display: inline-block;
     line-height: 1em;
+    color:#FFD700
   }
 
   .navbar-brand .letter {
     display: inline-block;
     line-height: 1em;
-    color:#FFD700
+    
    }
 
 .svg {
@@ -97,8 +98,11 @@
 }
 
 
-
 .nav-link, #nav-animation-1 {
+  color: #FFD700;
+}
+
+.nav-link :hover {
   color: #FFD700;
 }
 
