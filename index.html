@@ -11,6 +11,45 @@
 
 
 
+      <div class="modal" id="Modal_News" style="margin-top: 1000px">
+        <div class="modal modal-tour position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalTour">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+              <div class="modal-body p-5">
+                <h2 class="fw-bold mb-0">What's new</h2>
+        
+                <ul class="d-grid gap-4 my-5 list-unstyled">
+                  <li class="d-flex gap-4">
+                    <svg class="bi text-muted flex-shrink-0" width="48" height="48"><use xlink:href="#grid-fill"/></svg>
+                    <div>
+                      <h5 class="mb-0">Grid view</h5>
+                      Not into lists? Try the new grid view.
+                    </div>
+                  </li>
+                  <li class="d-flex gap-4">
+                    <svg class="bi text-warning flex-shrink-0" width="48" height="48"><use xlink:href="#bookmark-star"/></svg>
+                    <div>
+                      <h5 class="mb-0">Bookmarks</h5>
+                      Save items you love for easy access later.
+                    </div>
+                  </li>
+                  <li class="d-flex gap-4">
+                    <svg class="bi text-primary flex-shrink-0" width="48" height="48"><use xlink:href="#film"/></svg>
+                    <div>
+                      <h5 class="mb-0">Video embeds</h5>
+                      Share videos wherever you go.
+                    </div>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-primary mt-5 w-100" id="close" data-bs-dismiss="modal">Great, thanks!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
 
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
             <symbol id="Shopping-Cart" viewBox="0 0 16 16">
@@ -47,27 +86,27 @@
 
 
 
-        <nav class="navbar navbar-expand-sm bg-transparent" aria-label="nav">
+        <nav class="navbar navbar-expand-sm bg-transparent">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Scor</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" >
                 <span class="navbar-toggler-icon"></span>
               </button>
         
-              <div class="collapse navbar-collapse" id="navbarsExample03">
+              <div class="collapse navbar-collapse" id="navbars">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0 ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" id="nav-animation-1" href="#">Home</a>
+                    <a class="nav-link active" id="nav-animation-1" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" id="nav-animation-2" href="./Bao-cao/index.html">Progress Report</a>
+                    <a class="nav-link" id="nav-animation-2" href="./prj/Bao-cao/index.html">Progress Report</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown03"  data-bs-toggle="dropdown" aria-expanded="false">My Projects</a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                      <li><a class="dropdown-item" href="#">Caro Game</a></li>
-                      <li><a class="dropdown-item" href="#">Microsoft's Landing Page</a></li>
-                      <li><a class="dropdown-item" href="#">Kanban Board</a></li>
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown03"  data-bs-toggle="dropdown" >My Projects</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./prj/Caro-Game/index.html">Caro Game</a></li>
+                      <li><a class="dropdown-item" href="./prj/HTML-CSS/index.html">Microsoft's Landing Page</a></li>
+                      <li><a class="dropdown-item" href="./prj/KanbanBoard/index.html">Kanban Board</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -105,7 +144,7 @@
                   <div class="col">
                     <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('./img/prj/caro.png'); background-repeat: no-repeat; background-size:cover; background-position: center;">
                       <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:#212529" ><a href="https://tduong-p.github.io/Caro-Game/">XO Game</a></h2>
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:#212529" ><a href="./prj/Caro-Game/index.html">XO Game</a></h2>
                         <ul class="d-flex list-unstyled mt-auto">
                           <li class="me-auto">
                             <img src="https://avatars.githubusercontent.com/u/63652924?v=4" alt="" width="32" height="32" class="rounded-circle border border-white">
@@ -122,7 +161,7 @@
                   <div class="col">
                     <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-M365HP-1920x720:VP1-539x400?qlt=75'); background-repeat: no-repeat; background-size: cover;">
                       <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="display-6 lh-1 fw-bold" style="color:#212529"><a href="./HTML-CSS/index.html">Microsoft's Landing Page</a></h2>
+                        <h2 class="display-6 lh-1 fw-bold" style="color:#212529"><a href="./prj/HTML-CSS/index.html">Microsoft's Landing Page</a></h2>
                         <ul class="d-flex list-unstyled mt-auto">
                           <li class="me-auto">
                             <img src="https://avatars.githubusercontent.com/u/63652924?v=4" alt="" width="32" height="32" class="rounded-circle border border-white">
@@ -139,7 +178,7 @@
                   <div class="col">
                     <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('https://img.freepik.com/premium-vector/blank-paper-notes-kanban-board-project-development-icon_200210-213.jpg?w=2000'); background-repeat: no-repeat; background-size: cover;">
                       <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:#212529"><a href="https://tduong-p.github.io/KanbanBoard/" style="text-decoration: none;">Kanban Board</a></h2>
+                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color:#212529"><a href="./prj/KanbanBoard/index.html" style="text-decoration: none;">Kanban Board</a></h2>
                         <ul class="d-flex list-unstyled mt-auto">
                           <li class="me-auto">
                             <img src="https://avatars.githubusercontent.com/u/63652924?v=4" alt="" width="32" height="32" class="rounded-circle border border-white">
@@ -166,7 +205,7 @@
                     </div>
                     <h2>Online Shopping Website</h2>
                     <p> A simple Online shopping web layout</p>
-                    <a href="https://tduong-p.github.io/Online-Shopping-Website/" class="icon-link d-inline-flex align-items-center">
+                    <a href="./prj/Online-Shopping-Website/index.html" class="icon-link d-inline-flex align-items-center">
                       Explore
                       <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
                     </a>
@@ -177,7 +216,7 @@
                     </div>
                     <h2>Simple Web Layout</h2>
                     <p>A simple website layout.</p>
-                    <a href="https://tduong-p.github.io/Online-Shopping-Website/" class="icon-link d-inline-flex align-items-center">
+                    <a href="./prj/Simple-Web-Layout/index.html" class="icon-link d-inline-flex align-items-center">
                       Explore
                       <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
                     </a>
@@ -188,7 +227,7 @@
                     </div>
                     <h2>Manga Reading Web</h2>
                     <p>A manga reading website.</p>
-                    <a href="https://tduong-p.github.io/Manga-Reading-Web/" class="icon-link d-inline-flex align-items-center">
+                    <a href="./prj/Manga-Reading-Web/index.html" class="icon-link d-inline-flex align-items-center">
                       Explore
                       <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
                     </a>
@@ -209,7 +248,7 @@
                     <div>
                       <h2>Tricky Button</h2>
                       <p>Randomly jumping button on hover.</p>
-                      <a href="https://tduong-p.github.io/tricky-button/" class="btn btn-primary">
+                      <a href="./prj/tricky-button/index.html" class="btn btn-primary">
                         Explore
                       </a>
                     </div>
@@ -221,7 +260,7 @@
                     <div>
                       <h2>Fake Text Area</h2>
                       <p>Faking text area on typing.</p>
-                      <a href="https://tduong-p.github.io/Fake-Text-Area/" class="btn btn-primary">
+                      <a href="./prj/Fake-Text-Area/index.html" class="btn btn-primary">
                         Explore
                       </a>
                     </div>
@@ -247,7 +286,7 @@
                             <div class="card-body" id="card_1">
                               <h5 class="card-title">Simulate Light bulb and Switch connection </h5>
                               <p class="card-text">Simulate the relationship of a light bulb and a light switch.</p>
-                              <a href="https://github.com/tduong-p/OOP_Simulate_light_bulb_and_switch/blob/main/switch_light.html" class="btn btn-primary">Explore now ></a>
+                              <a href="./prj/OOP_Simulate_light_bulb_and_switch/index.html" class="btn btn-primary">Explore now ></a>
                             </div>
                           </div> 
                         </div> 
@@ -259,7 +298,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Simulate Adam and Eva Story</h5>
                               <p class="card-text">Simulate the story of Adam and Eva eat an apple</p>
-                              <a href="https://github.com/tduong-p/OOP_Simulate_Adam_Eva/blob/main/index.html" class="btn btn-primary">Explore now ></a>
+                              <a href="/prj/OOP_Simulate_Adam_Eva/index.html" class="btn btn-primary">Explore now ></a>
                             </div>
                           </div>  
                           </div>
@@ -271,7 +310,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Product Manager using array</h5>
                               <p class="card-text">Product Manager web app using array</p>
-                              <a href="https://tduong-p.github.io/Product-Manager-using-Array/" class="btn btn-primary">Explore now ></a>
+                              <a href="./prj/Product-Manager-using-Array/index.html" class="btn btn-primary">Explore now ></a>
                             </div>
                           </div> 
                         </div> 
@@ -292,19 +331,7 @@
 
       <div class="row mt-3">
 
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-          <br>
-          <br>
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Phan Tuấn Dương
-          </h6>
-          <p>
-            
-          </p>
-        </div>
-
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
           <br>
           <br>
@@ -487,7 +514,31 @@ anime({
                 
 
 
-                    
+          // Get the modal
+var modal = document.getElementById("Modal_News");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementById("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}  
 
             </script>
 
